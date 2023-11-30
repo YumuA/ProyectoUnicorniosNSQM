@@ -5,4 +5,8 @@ from . import views
 app_name = "country_app"
 
 urlpatterns = [
+        path('NewCountry/',
+                views.CountryAPISerializer.as_view(),
+                name='NewCountry'),
+
 ]

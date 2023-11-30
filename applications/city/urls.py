@@ -8,4 +8,5 @@ urlpatterns = [
         path('NewCity/',
                 views.CityAPISerializer.as_view(),
                 name='NewCity'),
+
 ]

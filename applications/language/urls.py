@@ -5,4 +5,7 @@ from . import views
 app_name = "language_app"
 
 urlpatterns = [
+            path('NewLanguage/',
+                views.LanguageAPISerializer.as_view(),
+                name='NewLanguage'),
 ]

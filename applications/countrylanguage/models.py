@@ -1,6 +1,6 @@
 from django.db import models
 
-class Language(models.Model):
+class CountryLanguage(models.Model):
     id_language = models.CharField('idLanguageofcountry', max_length=3, primary_key=True)
     id_country = models.CharField('id country', max_length=3)
     name_language = models.CharField('Name Language', max_length=3)

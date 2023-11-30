@@ -14,7 +14,7 @@ from .models import City
 # FORMULARIO
 # ------------------------------------------------------------------
 class NewCityForm(forms.ModelForm):
-    """Form definition for Empleado."""
+    """Form definition for City."""
     class Meta:
         """Meta definition for Empleadoform."""
         # Modelo al que se aplica el formulario
